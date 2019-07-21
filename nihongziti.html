@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ni Hong</title>
+    <link rel="stylesheet" href="http://fonts.font.im/css?family=Monoton">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #000;
+        }
+
+        .neon-wrap {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .neon-wrap span {
+            display: block;
+        }
+
+        .neon-text {
+            font-family: "Monoton", cursive;
+            font-size: 100px;
+            color: #222;
+            text-shadow: -3px 0px 5px #222, 0px 0px 2px #222;
+            animation: neonText 2s infinite;
+        }
+
+        .neon-by {
+            color: #e91e63;
+            text-shadow: -3px 0px 5px #e91e63, 0px 0px 2px #e91e63;
+        }
+
+        @keyframes neonText {
+
+            0%,
+            30%,
+            32%,
+            34%,
+            36%,
+            38% {
+                color: #222;
+                text-shadow: -3px 0px 5px #222, 0px 0px 2px #222;
+            }
+
+            31%,
+            33%,
+            35%,
+            37%,
+            39%,
+            100% {
+                color: #e91e63;
+                text-shadow: -3px 0px 5px #e91e63, 0px 0px 2px #e91e63;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="neon-wrap">
+        <span class="neon-text">Welcome &nbsp to  my &nbsp GitHub</span>
+        <span class="neon-by">by @HaoZai</span>
+
+    </div>
+</body>
+
+</html>
